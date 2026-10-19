@@ -1,0 +1,8 @@
+name: clickhouse_query_api_endpoint
+title: Manages a clickhouse_query_api_endpoint resource
+version: 0.1.0
+supports:
+  - platform: clickhouse
+depends:
+  - name: inspec-clickhouse
+    url: https://github.com/pleme-io/inspec-clickhouse

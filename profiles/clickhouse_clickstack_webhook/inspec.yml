@@ -1,0 +1,8 @@
+name: clickhouse_clickstack_webhook
+title: Manages a clickhouse_clickstack_webhook resource
+version: 0.1.0
+supports:
+  - platform: clickhouse
+depends:
+  - name: inspec-clickhouse
+    url: https://github.com/pleme-io/inspec-clickhouse

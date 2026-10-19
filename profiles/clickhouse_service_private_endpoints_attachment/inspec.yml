@@ -1,0 +1,8 @@
+name: clickhouse_service_private_endpoints_attachment
+title: Manages a clickhouse_service_private_endpoints_attachment resource
+version: 0.1.0
+supports:
+  - platform: clickhouse
+depends:
+  - name: inspec-clickhouse
+    url: https://github.com/pleme-io/inspec-clickhouse
